@@ -7,7 +7,7 @@ function Cards() {
   return (
     <>
       <div className="card">
-        <h1>Card Components</h1>
+        <h1>Daily Task</h1>
         <List />
         <Copyright />
       </div>
