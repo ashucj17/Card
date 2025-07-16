@@ -1,5 +1,6 @@
 import React from "react";
-import List from "./LIst";
+import List from "./List";
+import Copyright from "./Copyright";
 import '../App.css'
 
 function Cards() {
@@ -8,6 +9,7 @@ function Cards() {
       <div className="card">
         <h1>Card Components</h1>
         <List />
+        <Copyright />
       </div>
     </>
   );
