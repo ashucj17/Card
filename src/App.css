@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 .card {
-  height: 200px;
+  height: auto;
   background: #000;
   padding: 10px;
   border-radius: 15px;
@@ -21,4 +21,12 @@ ul{
 
 hr{
   margin: 15px 0;
+}
+
+.defaulter{
+  display: flex;
+}
+
+.defaulter p{
+  padding: 10px;
 }
