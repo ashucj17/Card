@@ -5,6 +5,7 @@ import Defaulter from "./defaulter"
 import Head from "./Head";
 import '../App.css'
 import Expression from "./expression";
+import Cases from "./Cases";
 
 function Cards() {
   return (
@@ -20,6 +21,7 @@ function Cards() {
       <div className="card">
         <h1>Expressions</h1>
         <Expression/>
+        <Cases/>
       </div>
       </div>
     </>
