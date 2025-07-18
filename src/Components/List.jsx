@@ -1,10 +1,11 @@
 import React from "react";
+import Expression from "./expression";
 
 const List = () => {
   return (
     <>
       <ul>
-        <li>JavaScript</li>
+        <li><Expression/></li>
         <li>CSS</li>
         <li>React</li>
         <li>TypeScript</li>
