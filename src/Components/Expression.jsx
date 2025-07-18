@@ -1,10 +1,20 @@
 const Expression = () =>{
     const task = ()=>{
-        return ""
+        const newTask = 8;
+
+        if(newTask === 0){
+            return "no task found.!!"
+        }
+        else{
+            return `${newTask}`
+        }
+
+
+        // return newTask === 0 ? "No task found.!!" : `${newTask}`
     }
     return (
         <>
-            <h2>taks:0</h2>
+            <h2>task: {task()}</h2>
         </>
     )
 }
