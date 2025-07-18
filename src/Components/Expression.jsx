@@ -10,11 +10,12 @@ const Expression = () =>{
         }
 
 
-        // return newTask === 0 ? "No task found.!!" : `${newTask}`
+        // return newTask === 0 ? "No task found.!!" : `${newTask}` Ternary Operator
     }
     return (
         <>
-            <h2>task: {task()}</h2>
+        <hr></hr>
+            <p>Task: {task()}</p>
         </>
     )
 }

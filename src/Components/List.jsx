@@ -5,7 +5,7 @@ const List = () => {
   return (
     <>
       <ul>
-        <li><Expression/></li>
+        <li>JavaScript</li>
         <li>CSS</li>
         <li>React</li>
         <li>TypeScript</li>

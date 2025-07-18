@@ -4,16 +4,23 @@ import Copyright from "./Copyright";
 import Defaulter from "./defaulter"
 import Head from "./Head";
 import '../App.css'
+import Expression from "./expression";
 
 function Cards() {
   return (
     <>
+    <div className="container">
       <div className="card">
       <Head />
         <h1>Daily Task</h1>
         <List />
         <Defaulter/>
         <Copyright />
+      </div>
+      <div className="card">
+        <h1>Expressions</h1>
+        <Expression/>
+      </div>
       </div>
     </>
   );
