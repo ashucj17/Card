@@ -13,7 +13,7 @@ function Cards() {
     <div className="container">
       <div className="card">
       <Head />
-        <h1>Daily Task</h1>
+        <h1 style={{color:'red', fontSize:"35px"}}>Daily Task</h1>
         <List />
         <Defaulter/>
         <Copyright />

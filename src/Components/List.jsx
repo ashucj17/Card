@@ -2,6 +2,8 @@ import React from "react";
 import Expression from "./expression";
 
 const List = () => {
+
+  const isDisabled =false
   return (
     <>
       <ul>
@@ -10,6 +12,7 @@ const List = () => {
         <li>React</li>
         <li>TypeScript</li>
       </ul>
+      <button className="click" disabled= {isDisabled}>Add New</button>
     </>
   );
 };

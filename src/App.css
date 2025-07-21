@@ -24,6 +24,11 @@ ul{
   padding-left: 20px;
 }
 
+.click{
+  display: flex;
+  margin: 15px auto;
+}
+
 hr{
   margin: 15px 0;
 }
