@@ -3,14 +3,19 @@ import Expression from "./expression";
 
 const List = () => {
 
+  const style ={
+    color:'yellow',
+    
+  }
+
   const isDisabled =false
   return (
     <>
       <ul>
-        <li>JavaScript</li>
-        <li>CSS</li>
-        <li>React</li>
-        <li>TypeScript</li>
+        <li style={style}>JavaScript</li>
+        <li style={style}>CSS</li>
+        <li style={style}>React</li>
+        <li style={style}>TypeScript</li>
       </ul>
       <button className="click" disabled= {isDisabled}>Add New</button>
     </>

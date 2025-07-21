@@ -1,4 +1,8 @@
 const Expression = () =>{
+           const style ={
+     color:'yellow'
+    
+  }
     const task = ()=>{
         const newTask = 8;
 
@@ -14,8 +18,8 @@ const Expression = () =>{
     }
     return (
         <>
-        <hr></hr>
-            <p>Task: {task()}</p>
+        <hr style={{borderColor:'red', borderWidth:'1px'}}></hr>
+            <p style={style}>Task: {task()}</p>
         </>
     )
 }

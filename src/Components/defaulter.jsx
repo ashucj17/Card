@@ -1,9 +1,15 @@
 const Defaulter = () =>{
 
+      const style ={
+     color:'yellow'
+    
+  }
+
+
     return <>
         <div className="defaulter">
-            <p> Phone Number</p>
-            <p>8888266939</p>
+            <p style={style}> Phone Number</p>
+            <p style={style}>8888266939</p>
         </div>
     </>
 }

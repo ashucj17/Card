@@ -2,8 +2,8 @@ import React from 'react'
 
 const Copyright = () =>{
     return <>
-        <hr></hr>
-        <p>@Copyright Golu 2025</p>
+        <hr style={{borderColor:'red',borderWidth:'1px'}}></hr>
+        <p style={{color:'yellow'}}>@Copyright Golu 2025</p>
     </>
 }
 

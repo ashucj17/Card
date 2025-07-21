@@ -1,7 +1,11 @@
 const Head= () =>{
+          const style ={
+     color:'yellow'
+    
+  }
     return <>
-        <p>www.writecode.com</p>
-        <hr />
+        <p style={style}>www.writecode.com</p>
+        <hr style={{borderColor:'red',borderWidth:'1px'}}></hr>
     </>
 }
 
