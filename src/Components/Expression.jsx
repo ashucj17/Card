@@ -1,10 +1,12 @@
+import Increment from "./Increment";
+
 const Expression = () =>{
-           const style ={
-     color:'yellow'
+    const style ={
+    color:'yellow'
     
   }
     const task = ()=>{
-        const newTask = 8;
+        let newTask = 4;
 
         if(newTask === 0){
             return "no task found.!!"
@@ -16,10 +18,13 @@ const Expression = () =>{
 
         // return newTask === 0 ? "No task found.!!" : `${newTask}` Ternary Operator
     }
+
+    
     return (
         <>
         <hr style={{borderColor:'red', borderWidth:'1px'}}></hr>
             <p style={style}>Task: {task()}</p>
+            <Increment />
         </>
     )
 }
