@@ -14,11 +14,30 @@ const Increment= () =>{
 
   }
 
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+    const emailInput = (event)=>{
+        const inputValue= event.target.value;
+        if(inputValue === 'alphaone@gmail.com'){
+            setEmail(inputValue)
+            setMessage('Correct Email')
+        }else if(inputValue === ''){
+            setEmail('')
+            setMessage('Enter Your Email')
+        } else{
+            setEmail(inputValue)
+            setMessage('Wrong Email')
+        }
+    }
+
     return <>
     <h2>{count}</h2>
     <input type="text" onChange={inputHandler}></input>
     <button onClick={handleClick}>Click</button>
     <h3>{input}</h3>
+    <input type="email" onChange={emailInput}></input>
+    <h3>{email}</h3>
+    <h3>{message}</h3>
 
     </>
 
