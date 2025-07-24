@@ -30,6 +30,8 @@ const Increment= () =>{
         }
     }
 
+    const targets = ['4 modules of JS', '1 or 2 modules of React']
+
     return <>
     <h2>{count}</h2>
     <input type="text" onChange={inputHandler}></input>
@@ -38,7 +40,9 @@ const Increment= () =>{
     <input type="email" onChange={emailInput}></input>
     <h3>{email}</h3>
     <h3>{message}</h3>
-
+    <ul>
+    {targets.map((target, index)=> <li key={index}>{target}</li> )}
+</ul>
     </>
 
 }
