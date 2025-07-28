@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Increment= () =>{
+const Increment= ({userName,emailAddress}) =>{
     {/* useState returns an array */}
     const [count, setCount] = useState(0)
     const handleClick = ()=>{
@@ -32,6 +32,8 @@ const Increment= () =>{
 
     const targets = ['4 modules of JS', '1 or 2 modules of React']
 
+    // const {userName,emailAddress} = props;
+
     return <>
     <h2>{count}</h2>
     <input type="text" onChange={inputHandler}></input>
@@ -43,6 +45,7 @@ const Increment= () =>{
     <ul>
     {targets.map((target, index)=> <li key={index}>{target}</li> )}
 </ul>
+    <h3>{userName}</h3> <p>{emailAddress}</p>
     </>
 
 }

@@ -24,7 +24,7 @@ const Expression = () =>{
         <>
         <hr style={{borderColor:'red', borderWidth:'1px'}}></hr>
             <p style={style}>Task: {task()}</p>
-            <Increment />
+            <Increment userName="Ashish" emailAddress="ashu@gmail.com"/>
         </>
     )
 }
